@@ -1171,3 +1171,248 @@ INFO  2018-07-10 15:20:45,656 [17   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-07-10 15:20:45,707 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 335.3968ms 200 image/png
 INFO  2018-07-10 15:20:45,709 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
 INFO  2018-07-10 15:20:45,736 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 415.9722ms 200 image/gif
+DEBUG 2018-07-10 16:38:29,442 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-10 16:38:29,528 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-10 16:38:29,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:29,592 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-10 16:38:29,698 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:38:29,698 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:38:29,698 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:38:29,698 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:38:30,211 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:38:30,879 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-10 16:38:30,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-10 16:38:31,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-10 16:38:31,058 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-07-10 16:38:31,093 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-10 16:38:31,139 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-10 16:38:31,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-10 16:38:31,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-10 16:38:31,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-07-10 16:38:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-10 16:38:31,212 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
+FATAL 2018-07-10 16:38:32,321 [1    ] Abp.AbpBootstrapper                      - System.InvalidOperationException: The entity type 'PhoneNum' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.<>c__DisplayClass5_0.<GetModel>b__0(Object k)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__7_1(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass22_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.InvalidOperationException: The entity type 'PhoneNum' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.<>c__DisplayClass5_0.<GetModel>b__0(Object k)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__7_1(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass22_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2018-07-10 16:38:32,579 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.InvalidOperationException: The entity type 'PhoneNum' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.<>c__DisplayClass5_0.<GetModel>b__0(Object k)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__7_1(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass22_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at MyCompany.MyProjectDemo.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\Startup\Startup.cs:line 115
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2018-07-10 16:40:06,983 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-10 16:40:07,058 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-10 16:40:07,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:07,116 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-10 16:40:07,228 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:07,228 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:07,228 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:07,228 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:07,714 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:08,550 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-10 16:40:08,628 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-10 16:40:08,685 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-10 16:40:08,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-07-10 16:40:08,752 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-10 16:40:08,799 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-10 16:40:08,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-10 16:40:08,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-10 16:40:08,861 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-07-10 16:40:08,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-07-10 16:40:08,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-10 16:40:08,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-10 16:40:08,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-10 16:40:08,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-07-10 16:40:08,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-07-10 16:40:08,863 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-10 16:40:08,863 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
+DEBUG 2018-07-10 16:40:42,807 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-10 16:40:42,841 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-10 16:40:42,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:42,898 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-10 16:40:42,996 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:42,996 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:42,996 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:42,996 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 16:40:43,444 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 16:40:44,026 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-10 16:40:44,102 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-10 16:40:44,160 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-10 16:40:44,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-07-10 16:40:44,227 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-10 16:40:44,271 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-10 16:40:44,323 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-10 16:40:44,324 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-10 16:40:44,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-07-10 16:40:44,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-07-10 16:40:44,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-10 16:40:44,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-10 16:40:44,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-10 16:40:44,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-07-10 16:40:44,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-07-10 16:40:44,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-10 16:40:44,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
