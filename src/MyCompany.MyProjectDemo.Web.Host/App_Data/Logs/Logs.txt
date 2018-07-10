@@ -1,0 +1,1173 @@
+DEBUG 2018-05-15 10:35:16,331 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 10:35:16,389 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 10:35:16,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:16,494 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 10:35:16,591 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 10:35:16,592 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 10:35:16,592 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 10:35:16,592 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 10:35:17,318 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 10:35:17,918 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 10:35:17,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 10:35:18,028 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 10:35:18,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-05-15 10:35:18,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 10:35:18,390 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 10:35:18,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 10:35:18,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 10:35:18,446 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 10:35:18,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-05-15 10:35:18,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 10:35:18,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 10:35:18,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 10:35:18,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 10:35:18,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-05-15 10:35:18,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 10:35:18,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
+FATAL 2018-05-15 10:35:19,598 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 对象名 'AbpEditions' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(MyProjectDemoDbContext context) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:52a3a7ce-8b7f-437b-a683-c449ef6a63f7
+Error Number:208,State:1,Class:16
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AbpEditions' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(MyProjectDemoDbContext context) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:52a3a7ce-8b7f-437b-a683-c449ef6a63f7
+Error Number:208,State:1,Class:16
+FATAL 2018-05-15 10:35:19,831 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AbpEditions' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(MyProjectDemoDbContext context) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at MyCompany.MyProjectDemo.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:52a3a7ce-8b7f-437b-a683-c449ef6a63f7
+Error Number:208,State:1,Class:16
+DEBUG 2018-05-15 10:39:34,577 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 10:39:34,729 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 11:03:24,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:03:49,180 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 11:10:56,893 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 11:10:56,893 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 11:10:56,893 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 11:10:56,893 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 11:22:05,013 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 11:22:49,587 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 11:22:49,660 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 11:22:49,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 11:22:49,785 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-05-15 11:22:49,819 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 11:22:49,999 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 11:22:53,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 11:22:53,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 11:22:53,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 11:22:53,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-05-15 11:22:53,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 11:22:53,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 11:22:53,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 11:22:53,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 11:22:53,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-05-15 11:22:53,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 11:22:53,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
+INFO  2018-05-15 11:27:30,492 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-15 11:27:30,492 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-05-15 11:27:30,563 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.7959ms 200 
+INFO  2018-05-15 11:27:34,714 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Web.Host.Controllers.HomeController.Index (MyCompany.MyProjectDemo.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 11:27:34,833 [18   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-15 11:27:34,855 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Web.Host.Controllers.HomeController.Index (MyCompany.MyProjectDemo.Web.Host) in 1120.2007ms
+INFO  2018-05-15 11:27:34,869 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4475.3856ms 302 
+INFO  2018-05-15 11:27:34,898 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-05-15 11:27:34,980 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.785ms 301 
+INFO  2018-05-15 11:27:34,986 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-15 11:27:35,008 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,041 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.2844ms 200 text/html
+INFO  2018-05-15 11:27:35,107 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-15 11:27:35,110 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-05-15 11:27:35,185 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-15 11:27:35,188 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,204 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-15 11:27:35,207 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-15 11:27:35,234 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,240 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,255 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 155.1375ms 200 text/css
+INFO  2018-05-15 11:27:35,278 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,284 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,318 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-05-15 11:27:35,325 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 201.6298ms 200 text/css
+INFO  2018-05-15 11:27:35,346 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,389 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.6106ms 200 text/css
+INFO  2018-05-15 11:27:35,396 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-05-15 11:27:35,447 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.7956ms 200 application/javascript
+INFO  2018-05-15 11:27:35,449 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 204.9778ms 200 text/css
+INFO  2018-05-15 11:27:35,496 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,543 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-05-15 11:27:35,571 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-05-15 11:27:35,587 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-05-15 11:27:35,610 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,638 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-05-15 11:27:35,640 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.1068ms 200 application/javascript
+INFO  2018-05-15 11:27:35,679 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,712 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-05-15 11:27:35,714 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.8909ms 200 application/javascript
+INFO  2018-05-15 11:27:35,738 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,755 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 166.6703ms 200 application/javascript
+INFO  2018-05-15 11:27:35,781 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-05-15 11:27:35,832 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,852 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 284.8026ms 200 application/javascript
+INFO  2018-05-15 11:27:35,904 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,927 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-05-15 11:27:35,939 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:35,950 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 155.6669ms 200 application/javascript
+INFO  2018-05-15 11:27:36,023 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-05-15 11:27:36,090 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,113 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.918ms 200 application/javascript
+INFO  2018-05-15 11:27:36,115 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,156 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 253.4272ms 200 application/javascript
+INFO  2018-05-15 11:27:36,162 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-05-15 11:27:36,201 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,227 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1027.5951ms 200 application/javascript
+INFO  2018-05-15 11:27:36,254 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-05-15 11:27:36,280 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-05-15 11:27:36,331 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 226.742ms 200 application/javascript
+INFO  2018-05-15 11:27:36,332 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,343 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.4271ms 200 application/javascript
+INFO  2018-05-15 11:27:36,358 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-05-15 11:27:36,380 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 979.1756ms 200 application/javascript
+INFO  2018-05-15 11:27:36,395 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 633.1221ms 200 application/javascript
+INFO  2018-05-15 11:27:36,428 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,430 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,454 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.5348ms 200 image/png
+INFO  2018-05-15 11:27:36,473 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 323.6339ms 200 application/javascript
+INFO  2018-05-15 11:27:36,541 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-15 11:27:36,582 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-32x32.png  
+INFO  2018-05-15 11:27:36,595 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-05-15 11:27:36,611 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.5737ms 200 image/png
+INFO  2018-05-15 11:27:36,868 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 314.2759ms 200 application/json
+INFO  2018-05-15 11:27:37,420 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526354857396  
+INFO  2018-05-15 11:27:37,446 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526354857398  
+INFO  2018-05-15 11:27:37,472 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-15 11:27:37,479 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-15 11:27:37,544 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.6513ms 200 application/javascript
+INFO  2018-05-15 11:27:37,546 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.295ms 200 application/javascript
+INFO  2018-05-15 11:28:05,049 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-05-15 11:28:05,060 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
+INFO  2018-05-15 11:28:05,087 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.7288ms 200 image/gif
+INFO  2018-05-15 11:28:08,084 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-05-15 11:28:08,093 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2018-05-15 11:28:08,098 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.8939ms 200 image/png
+INFO  2018-05-15 11:34:28,425 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get?Id=1  
+INFO  2018-05-15 11:34:28,714 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Users.UserAppService.Get (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int64]) - ModelState is Valid
+WARN  2018-05-15 11:34:29,237 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.Get(EntityDto`1 input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:34:29,283 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:34:29,306 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Users.UserAppService.Get (MyCompany.MyProjectDemo.Application) in 847.0158ms
+INFO  2018-05-15 11:34:29,314 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 907.8837ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:34:57,925 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-15 11:34:58,035 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Sessions.SessionAppService.GetCurrentLoginInformations (MyCompany.MyProjectDemo.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 11:34:58,064 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:34:58,078 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Sessions.SessionAppService.GetCurrentLoginInformations (MyCompany.MyProjectDemo.Application) in 136.3747ms
+INFO  2018-05-15 11:34:58,111 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.0789ms 200 application/json; charset=utf-8
+INFO  2018-05-15 11:40:13,304 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=1&MaxResultCount=10  
+INFO  2018-05-15 11:40:13,574 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Roles.RoleAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:40:13,867 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:40:13,920 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:40:13,930 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Roles.RoleAppService.GetAll (MyCompany.MyProjectDemo.Application) in 606.333ms
+INFO  2018-05-15 11:40:13,944 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 634.4315ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:40:51,109 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=1&MaxResultCount=10  
+INFO  2018-05-15 11:40:51,161 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Roles.RoleAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:40:51,379 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:40:51,428 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:40:51,435 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Roles.RoleAppService.GetAll (MyCompany.MyProjectDemo.Application) in 314.564ms
+INFO  2018-05-15 11:40:51,449 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 352.5196ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:42:55,869 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2018-05-15 11:42:56,274 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) with arguments (MyCompany.MyProjectDemo.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+WARN  2018-05-15 11:42:56,537 [10   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2018-05-15 11:42:57,399 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyCompany.MyProjectDemo.Controllers.TokenAuthController.<GetLoginResultAsync>d__14.MoveNext() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Core\Controllers\TokenAuthController.cs:line 192
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyCompany.MyProjectDemo.Controllers.TokenAuthController.<Authenticate>d__8.MoveNext() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Core\Controllers\TokenAuthController.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:42:57,429 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:42:57,454 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) in 1550.0176ms
+INFO  2018-05-15 11:42:57,463 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1612.9603ms 500 application/json; charset=utf-8
+INFO  2018-05-15 11:43:38,543 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2018-05-15 11:43:38,601 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) with arguments (MyCompany.MyProjectDemo.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-15 11:43:40,093 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:43:40,100 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) in 1547.5244ms
+INFO  2018-05-15 11:43:40,106 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1567.4573ms 200 application/json; charset=utf-8
+INFO  2018-05-15 11:44:23,030 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526355862982  
+INFO  2018-05-15 11:44:23,033 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526355862984  
+INFO  2018-05-15 11:44:23,063 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-15 11:44:23,085 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-15 11:44:23,100 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.9448ms 200 application/javascript
+INFO  2018-05-15 11:44:23,106 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.5279ms 200 application/javascript
+INFO  2018-05-15 11:44:49,563 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=1&MaxResultCount=10  
+INFO  2018-05-15 11:44:49,600 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:44:49,659 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:44:49,672 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:44:49,699 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) in 100.9939ms
+INFO  2018-05-15 11:44:49,705 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.5057ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:45:02,144 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=1&MaxResultCount=10  
+INFO  2018-05-15 11:45:02,173 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:45:02,230 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:45:02,263 [19   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:45:02,268 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) in 115.8985ms
+INFO  2018-05-15 11:45:02,274 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.0696ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:45:22,432 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526355922375  
+INFO  2018-05-15 11:45:22,434 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526355922378  
+INFO  2018-05-15 11:45:22,483 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-15 11:45:22,486 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-15 11:45:22,525 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.3696ms 200 application/javascript
+INFO  2018-05-15 11:45:22,550 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.375ms 200 application/javascript
+INFO  2018-05-15 11:45:37,865 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/TokenAuth/GetExternalAuthenticationProviders  
+INFO  2018-05-15 11:45:37,924 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Controllers.TokenAuthController.GetExternalAuthenticationProviders (MyCompany.MyProjectDemo.Web.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 11:45:38,037 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:45:38,049 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Controllers.TokenAuthController.GetExternalAuthenticationProviders (MyCompany.MyProjectDemo.Web.Core) in 167.1098ms
+INFO  2018-05-15 11:45:38,058 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 214.3736ms 200 application/json; charset=utf-8
+INFO  2018-05-15 11:46:00,422 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2018-05-15 11:46:00,503 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) with arguments (MyCompany.MyProjectDemo.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-15 11:46:01,712 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:46:01,720 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) in 1283.5034ms
+INFO  2018-05-15 11:46:01,725 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1317.878ms 200 application/json; charset=utf-8
+INFO  2018-05-15 11:46:58,560 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526356018458  
+INFO  2018-05-15 11:46:58,582 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-15 11:46:58,629 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526356018456  
+INFO  2018-05-15 11:46:58,643 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.2573ms 200 application/javascript
+INFO  2018-05-15 11:46:58,674 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-15 11:46:58,700 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 220.7989ms 200 application/javascript
+INFO  2018-05-15 11:47:11,611 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=1&MaxResultCount=10  
+INFO  2018-05-15 11:47:11,651 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:47:11,782 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:47:11,817 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:47:11,827 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) in 201.2254ms
+INFO  2018-05-15 11:47:11,839 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 225.5133ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:50:09,021 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2018-05-15 11:50:09,085 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) with arguments (MyCompany.MyProjectDemo.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-15 11:51:42,580 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:51:42,586 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) in 93551.6363ms
+INFO  2018-05-15 11:51:42,599 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93570.7955ms 200 application/json; charset=utf-8
+INFO  2018-05-15 11:51:48,108 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526356308072  
+INFO  2018-05-15 11:51:48,120 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-15 11:51:48,122 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526356308076  
+INFO  2018-05-15 11:51:48,138 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-15 11:51:48,160 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.172ms 200 application/javascript
+INFO  2018-05-15 11:51:48,194 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.0116ms 200 application/javascript
+INFO  2018-05-15 11:51:51,404 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526356311373  
+INFO  2018-05-15 11:51:51,440 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526356311375  
+INFO  2018-05-15 11:51:51,452 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-15 11:51:51,470 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-15 11:51:51,505 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.7584ms 200 application/javascript
+INFO  2018-05-15 11:51:51,523 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.713ms 200 application/javascript
+INFO  2018-05-15 11:51:56,621 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=1&MaxResultCount=11  
+INFO  2018-05-15 11:51:56,656 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:51:56,741 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:51:56,754 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:51:56,760 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) in 129.2668ms
+INFO  2018-05-15 11:51:56,766 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 146.1952ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:53:02,038 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=1&MaxResultCount=11  
+INFO  2018-05-15 11:53:02,094 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-15 11:53:02,156 [23   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-15 11:53:02,189 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:53:02,195 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Users.UserAppService.GetAll (MyCompany.MyProjectDemo.Application) in 147.5927ms
+INFO  2018-05-15 11:53:02,201 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.6741ms 401 application/json; charset=utf-8
+INFO  2018-05-15 11:53:30,547 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2018-05-15 11:53:30,603 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) with arguments (MyCompany.MyProjectDemo.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-15 11:56:55,834 [29   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 11:56:55,859 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Controllers.TokenAuthController.Authenticate (MyCompany.MyProjectDemo.Web.Core) in 205282.3839ms
+INFO  2018-05-15 11:56:55,864 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 205317.5899ms 200 application/json; charset=utf-8
+WARN  2018-05-15 13:14:17,242 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - 指定的网络名不再可用。) ---> System.ComponentModel.Win32Exception: 指定的网络名不再可用。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionWithNoPreconditions(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - 指定的网络名不再可用。) ---> System.ComponentModel.Win32Exception: 指定的网络名不再可用。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionWithNoPreconditions(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+DEBUG 2018-07-10 15:13:05,592 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-10 15:13:05,689 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-10 15:13:05,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,743 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:05,749 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-10 15:13:05,852 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:13:05,852 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:13:05,852 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:13:05,852 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:13:06,386 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:13:06,999 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-10 15:13:07,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-10 15:13:07,136 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-10 15:13:07,170 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-07-10 15:13:07,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-10 15:13:07,249 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-10 15:13:07,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-10 15:13:07,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-10 15:13:07,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-10 15:13:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
+FATAL 2018-07-10 15:13:08,641 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 对象名 'AbpEditions' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(MyProjectDemoDbContext context) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:c0c69630-47ec-49c0-8775-587a32c7ef4d
+Error Number:208,State:1,Class:16
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AbpEditions' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(MyProjectDemoDbContext context) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:c0c69630-47ec-49c0-8775-587a32c7ef4d
+Error Number:208,State:1,Class:16
+FATAL 2018-07-10 15:13:08,768 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AbpEditions' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(MyProjectDemoDbContext context) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule.PostInitialize() in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.EntityFrameworkCore\EntityFrameworkCore\MyProjectDemoEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at MyCompany.MyProjectDemo.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\Startup\Startup.cs:line 115
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:c0c69630-47ec-49c0-8775-587a32c7ef4d
+Error Number:208,State:1,Class:16
+DEBUG 2018-07-10 15:14:15,807 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-10 15:14:16,156 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-10 15:14:20,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.Web.Host.Startup.MyProjectDemoWebHostModule, MyCompany.MyProjectDemo.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoWebCoreModule, MyCompany.MyProjectDemo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoApplicationModule, MyCompany.MyProjectDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.MyProjectDemoCoreModule, MyCompany.MyProjectDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoEntityFrameworkModule, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:23,090 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-10 15:14:24,644 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:14:24,644 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:14:24,644 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProjectDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:14:24,644 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-10 15:14:29,834 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.MyProjectDemo.EntityFrameworkCore.MyProjectDemoDbContext, MyCompany.MyProjectDemo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-10 15:14:32,761 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-10 15:14:32,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-10 15:14:32,910 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-10 15:14:32,956 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProjectDemo
+DEBUG 2018-07-10 15:14:33,002 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-10 15:14:33,279 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-10 15:14:33,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-10 15:14:33,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-10 15:14:33,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.CreateUserDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Users.Dto.UserDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.PermissionDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.Roles.Dto.RoleDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-10 15:14:33,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.MyProjectDemo.MultiTenancy.Dto.TenantDto
+INFO  2018-07-10 15:14:44,243 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-10 15:14:44,243 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-10 15:14:44,287 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 143.8622ms 200 
+INFO  2018-07-10 15:14:48,882 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyCompany.MyProjectDemo.Web.Host.Controllers.HomeController.Index (MyCompany.MyProjectDemo.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-07-10 15:14:49,005 [6    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-10 15:14:49,026 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyCompany.MyProjectDemo.Web.Host.Controllers.HomeController.Index (MyCompany.MyProjectDemo.Web.Host) in 1142.9613ms
+INFO  2018-07-10 15:14:49,060 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4897.9401ms 302 
+INFO  2018-07-10 15:14:49,086 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-07-10 15:14:49,102 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.4062ms 301 
+INFO  2018-07-10 15:14:49,111 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-07-10 15:14:49,150 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,167 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.5422ms 200 text/html
+INFO  2018-07-10 15:14:49,312 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-07-10 15:14:49,359 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-07-10 15:14:49,422 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-07-10 15:14:49,437 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,483 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-07-10 15:14:49,491 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,532 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 264.635ms 200 text/css
+INFO  2018-07-10 15:14:49,556 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 193.578ms 200 application/javascript
+INFO  2018-07-10 15:14:49,568 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,590 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-07-10 15:14:49,613 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,653 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-07-10 15:14:49,662 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-07-10 15:14:49,684 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 335.2971ms 200 text/css
+INFO  2018-07-10 15:14:49,707 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,716 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 311.1621ms 200 text/css
+INFO  2018-07-10 15:14:49,765 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,783 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,803 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-07-10 15:14:49,810 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 472.8707ms 200 text/css
+INFO  2018-07-10 15:14:49,814 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-07-10 15:14:49,845 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,852 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.232ms 200 application/javascript
+INFO  2018-07-10 15:14:49,885 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:49,900 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 156.3632ms 200 application/javascript
+INFO  2018-07-10 15:14:49,930 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 159.1799ms 200 application/javascript
+INFO  2018-07-10 15:14:49,945 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-07-10 15:14:49,969 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-07-10 15:14:49,983 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-07-10 15:14:50,016 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,053 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-07-10 15:14:50,072 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-07-10 15:14:50,112 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,123 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,157 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,170 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,227 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 398.8214ms 200 application/javascript
+INFO  2018-07-10 15:14:50,241 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 258.2093ms 200 application/javascript
+INFO  2018-07-10 15:14:50,278 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 200.2498ms 200 application/javascript
+INFO  2018-07-10 15:14:50,296 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 221.875ms 200 application/javascript
+INFO  2018-07-10 15:14:50,311 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-07-10 15:14:50,320 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-07-10 15:14:50,338 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-07-10 15:14:50,381 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 279.8617ms 200 application/javascript
+INFO  2018-07-10 15:14:50,392 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,406 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,438 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.684ms 200 application/javascript
+INFO  2018-07-10 15:14:50,459 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,484 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-07-10 15:14:50,505 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 160.759ms 200 application/javascript
+INFO  2018-07-10 15:14:50,558 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,593 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-07-10 15:14:50,617 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 527.8858ms 200 application/javascript
+INFO  2018-07-10 15:14:50,660 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.4749ms 200 application/javascript
+INFO  2018-07-10 15:14:50,672 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 142.6075ms 200 application/javascript
+INFO  2018-07-10 15:14:50,677 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:50,713 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 212.0228ms 200 image/png
+INFO  2018-07-10 15:14:51,050 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-10 15:14:51,096 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-32x32.png  
+INFO  2018-07-10 15:14:51,157 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-07-10 15:14:51,200 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.6473ms 200 image/png
+INFO  2018-07-10 15:14:51,473 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 473.4779ms 200 application/json
+INFO  2018-07-10 15:14:52,755 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1531206892677  
+INFO  2018-07-10 15:14:52,792 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1531206892674  
+INFO  2018-07-10 15:14:52,803 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-07-10 15:14:52,811 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'G:\ABP\MyCompany.MyProjectDemo\3.6.0\aspnet-core\src\MyCompany.MyProjectDemo.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-07-10 15:14:52,884 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 162.8821ms 200 application/javascript
+INFO  2018-07-10 15:14:52,908 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.8885ms 200 application/javascript
+INFO  2018-07-10 15:20:45,511 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-07-10 15:20:45,580 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2018-07-10 15:20:45,656 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-07-10 15:20:45,707 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 335.3968ms 200 image/png
+INFO  2018-07-10 15:20:45,709 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
+INFO  2018-07-10 15:20:45,736 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 415.9722ms 200 image/gif
