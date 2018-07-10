@@ -23,13 +23,13 @@ namespace MyCompany.MyProjectDemo.PhoneBooks
         /// </summary>
         /// <param name="Id"></param>
         /// <returns></returns>
-        Task<PersonListDto> GetPersonByIdAsync(long Id);
+        Task<PersonListDto> GetPersonByIdAsync(NullableIdDto Id);
 
         /// <summary>
         /// 新增或者修改联系人信息
         /// </summary>
         /// <returns></returns>
-        Task InsertOrEditPersonAsync();
+        Task InsertOrEditPersonAsync(InsertOrEditPersonAsyncInput insertOrEditPersonAsyncInput);
 
         /// <summary>
         /// 删除用户信息

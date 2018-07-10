@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abp.Application.Services.Dto;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -7,6 +8,7 @@ namespace MyCompany.MyProjectDemo.PhoneBooks.Dtos
 {
    public class PersonEditDto
     {
+        public int? Id { get; set; }
         /// <summary>
         /// 名称
         /// </summary>

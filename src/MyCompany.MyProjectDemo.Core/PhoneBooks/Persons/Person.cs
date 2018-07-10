@@ -10,7 +10,7 @@ namespace MyCompany.MyProjectDemo.PhoneBooks.Persons
     /// <summary>
     /// 人员
     /// </summary>
-    public class Person : FullAuditedEntity<long>
+    public class Person : FullAuditedEntity
     {
 
         /// <summary>
