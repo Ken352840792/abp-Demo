@@ -2,6 +2,7 @@
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using MyCompany.MyProjectDemo.Authorization;
+using MyCompany.MyProjectDemo.Persons.Authorization;
 
 namespace MyCompany.MyProjectDemo
 {
@@ -13,6 +14,8 @@ namespace MyCompany.MyProjectDemo
         public override void PreInitialize()
         {
             Configuration.Authorization.Providers.Add<MyProjectDemoAuthorizationProvider>();
+            Configuration.Authorization.Providers.Add<PersonAppAuthorizationProvider>();
+            
         }
 
         public override void Initialize()

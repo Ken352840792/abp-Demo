@@ -17,9 +17,10 @@ using System;
 namespace MyCompany.MyProjectDemo.Migrations
 {
     [DbContext(typeof(MyProjectDemoDbContext))]
-    partial class MyProjectDemoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180711011450_MyProjectDemoDbContextV1")]
+    partial class MyProjectDemoDbContextV1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
